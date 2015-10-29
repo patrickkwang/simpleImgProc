@@ -1,4 +1,4 @@
-function out = pkw3_fftFilt2(I,H)
+function out = fftFilter2(I,H)
 [N,M] = size(I);
 [n,m] = size(H);
 I = padarray(I,floor([n,m]/2),'both');

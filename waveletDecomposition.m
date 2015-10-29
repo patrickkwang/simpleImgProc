@@ -1,5 +1,5 @@
-function wt = dwt2(im)
-% wt = dwt2(im)
+function wt = waveletDecomposition(im)
+% wt = waveletDecomposition(im)
 % computes the Discrete Wavelet Transform using Haar wavelets
 %
 % INPUT:

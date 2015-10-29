@@ -1,4 +1,5 @@
 function h = antiAliasFilter1d(inVecLen,outVecLen)
+
 assert(outVecLen<=inVecLen,'Downsampling only!')
 assert(isscalar(inVecLen)&&isscalar(outVecLen),'Inputs should be scalar!')
 

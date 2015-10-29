@@ -1,5 +1,5 @@
-function im = idwt2(wt)
-% im = idwt2(wt)
+function im = waveletReconstruction(wt)
+% im = waveletReconstruction(wt)
 % computes the inverse Discrete Wavelet Transform using Haar wavelets
 %
 % INPUT:

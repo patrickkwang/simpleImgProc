@@ -1,4 +1,4 @@
-function J = pkw3_bilatFilt(I,sigma,lambda)
+function J = bilateralFilter(I,sigma,lambda)
 % bilateral filtering
 %
 % input image I, spacial standard deviation sigma, intensity standard

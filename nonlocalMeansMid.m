@@ -1,4 +1,4 @@
-function J = nlmFilterMid(I,windowSize,sigma)
+function J = nonlocalMeansMid(I,windowSize,sigma)
 assert(all(mod(windowSize,2)==1),'window should have odd size')
 [N,M] = size(I);
 n = windowSize(1); m = windowSize(2);

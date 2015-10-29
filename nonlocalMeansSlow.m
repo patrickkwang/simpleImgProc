@@ -1,4 +1,4 @@
-function J = nlmFilterSlow(I,windowSize,sigma)
+function J = nonlocalMeansSlow(I,windowSize,sigma)
 assert(all(mod(windowSize,2)==1),'window should have odd size')
 [N,M] = size(I);
 n = windowSize(1); m = windowSize(2);

@@ -1,4 +1,4 @@
-function im = pkw3_bayerDemosaic(mosaic)
+function im = bayerDemosaic(mosaic)
 [Xq,Yq] = meshgrid(1:size(mosaic,2),1:size(mosaic,1));
 red = ~mod(Xq,2) & mod(Yq,2); % red pixels
 green = ~mod(Xq+Yq,2); % green pixels

@@ -1,4 +1,4 @@
-function J = nlmFilterFast(I,windowSize,sigma)
+function J = nonlocalMeansFast(I,windowSize,sigma)
 assert(all(mod(windowSize,2)==1),'window should have odd size')
 [N,M] = size(I);
 zIz = padarray(I,(windowSize-1)/2,'replicate');
